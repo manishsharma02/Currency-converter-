@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.converter-container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+
+input, select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}
